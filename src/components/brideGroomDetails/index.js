@@ -1,12 +1,20 @@
 import React from "react";
-import Bride from "../../assets/images/bride.jpeg";
-import Groom from "../../assets/images/groom.jpeg";
+
 import data from "../../ssr.json";
 import Carousel from "./carousel";
 
 function Bridegroom() {
   const { brideName, daughterOf } = data["brideDetails"];
   const { groomName, sonOf } = data["groomDetails"];
+
+  const data1 = [
+    { id: 1, imgUrl: "ankit_tyagi.jpg" },
+    { id: 2, imgUrl: "ankit_papa.jpeg" },
+    { id: 5, imgUrl: "ankit_mom.jpeg" },
+    { id: 3, imgUrl: "ankit_sister.jpeg" },
+    { id: 4, imgUrl: "ankit_jiju.jpeg" },
+  ];
+
   return (
     <div id="couple" className="bridegroom clear section-padding bg-pink">
       <div className="container">
@@ -86,9 +94,10 @@ function Bridegroom() {
             </div>
           </div>
         </div> */}
-        <div>
-          <Carousel />
-          <Carousel />
+        <div className="flex flex-col md:flex-row justify-evenly gap-4 ">
+          <Carousel cardsData={data1} />
+          <Carousel cardsData={data1} />
+          {/* <Carousel /> */}
         </div>
 
         <div className="row">

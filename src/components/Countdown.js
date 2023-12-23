@@ -14,9 +14,8 @@ function Countdown() {
           let now = new Date().getTime(),
             distance = countDown - now;
 
-          document.getElementById("days").innerText = Math.floor(
-            distance / day
-          );
+          document.getElementById("days").innerText =
+            Math.floor(distance / day) ?? "NOT_FOUND";
           document.getElementById("hours").innerText = Math.floor(
             (distance % day) / hour
           );
