@@ -1,16 +1,20 @@
 import React from "react";
+import data from "../ssr.json";
 
 function Header() {
+  console.log(data);
+
+  const { heading, placeAndDate } = data["homePage"];
   return (
     <header id="home" className="header valign bg-img parallaxie">
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center caption">
             <h1 className="animate-box" data-animate-effect="fadeInUp">
-              Shweta & Gopal
+              {heading}
             </h1>
             <h5 className="animate-box" data-animate-effect="fadeInUp">
-              21st November, 2021 – Meerut,Uttar Pradesh
+              {placeAndDate}
             </h5>
           </div>
         </div>

@@ -1,14 +1,19 @@
-Tailwind CSS
-Continuous integration
-update content
-config driven
 PWA
 Song player
 home page modifications
 controller
 carousel in person details
-color changes
 
+
+
+
+/**** Completed ****/
+
+1.Continuous integration
+2.Config driven
+3.Tailwind CSS integration
+4.Color changes
+5.Update content
 
 
    

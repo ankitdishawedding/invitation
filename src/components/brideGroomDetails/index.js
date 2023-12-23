@@ -1,7 +1,11 @@
 import React from "react";
-import Bride from "../assets/images/bride.jpeg";
-import Groom from "../assets/images/groom.jpeg";
+import Bride from "../../assets/images/bride.jpeg";
+import Groom from "../../assets/images/groom.jpeg";
+import data from "../../ssr.json";
+
 function Bridegroom() {
+  const { BrideName, daughterOf } = data["brideDetails"];
+  const { groomName, sonOf } = data["groomDetails"];
   return (
     <div id="couple" className="bridegroom clear section-padding bg-pink">
       <div className="container">
@@ -18,7 +22,8 @@ function Bridegroom() {
               <div className="info valign">
                 <div className="full-width">
                   <h6>
-                    Shweta Tyagi<i className="ti-heart"></i>
+                    {groomName}
+                    <i className="ti-heart"></i>
                   </h6>{" "}
                   <span>The Bride</span>
                   <p>Daughter of MRs. Anju Tyagi and MR. Anand Tyagi</p>

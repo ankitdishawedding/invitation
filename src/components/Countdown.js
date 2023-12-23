@@ -1,14 +1,15 @@
 import React, { useEffect } from "react";
-
+import data from "../ssr.json";
 function Countdown() {
+  const { weddingDate, countDownText } = data["countDown"];
   useEffect(() => {
     (function () {
       const second = 1000,
         minute = second * 60,
         hour = minute * 60,
         day = hour * 24;
-      let birthday = "Nov 20, 2021 00:00:00",
-        countDown = new Date(birthday).getTime(),
+      let wedding = weddingDate,
+        countDown = new Date(wedding).getTime(),
         x = setInterval(function () {
           let now = new Date().getTime(),
             distance = countDown - now;
@@ -53,7 +54,7 @@ function Countdown() {
         <div className="row">
           <div className="section-head col-md-12">
             <h4 style={{ fontWeight: "bold", fontSize: "50px" }}>
-              We will become a family in
+              {countDownText}
             </h4>
           </div>
         </div>

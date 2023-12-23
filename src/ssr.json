@@ -1,0 +1,18 @@
+{
+  "homePage": {
+    "heading": "Ankit & Disha",
+    "placeAndDate": "14th February, 2024 – Ghaziabad,UTTAR PRADESH"
+  },
+  "countDown": {
+    "weddingDate": "Feb 14, 2024 00:00:00",
+    "countDownText": " We will become a family in"
+  },
+  "brideDetails": {
+    "brideName": "Disha Tyagi",
+    "daughterOf": "Daughter of MRs. Neera Tyagi and MR. Manoj Kumar Tyagi"
+  },
+  "groomDetails": {
+    "groomName": "Ankit Tyagi",
+    "sonOf": "MRs. Anju Tyagi and MR. Anand Kumar Tyagi"
+  }
+}

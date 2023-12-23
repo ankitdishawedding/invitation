@@ -1,4 +1,4 @@
-import Bridegroom from "./components/Bridegroom";
+import Bridegroom from "./components/brideGroomDetails";
 import Countdown from "./components/Countdown";
 import Footer from "./components/Footer";
 import Gallery from "./components/Gallery";
