@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Logo from "../assets/images/logo.png";
+import data from "../ssr.json";
+
 function Sidebar() {
   const [show, setShow] = useState(false);
-
+  const { date, heading, footerDate } = data["sidebar"];
   const openMenu = (e) => {
     e.preventDefault();
     setShow(!show);
@@ -24,10 +26,8 @@ function Sidebar() {
         <div className="oliven-logo">
           <a href="#home">
             <img src={Logo} alt="" />
-            <span>
-              Shweta <small>&</small> Gopal
-            </span>
-            <h6>21.11.2021</h6>
+            <span>{heading}</span>
+            <h6>{date}</h6>
           </a>
         </div>
         <nav className="oliven-main-menu">
@@ -52,9 +52,9 @@ function Sidebar() {
           {" "}
           <span className="separator"></span>
           <p>
-            Shweta & Gopal wedding
+            {`${heading} wedding`}
             <br />
-            21st November 2021, Meerut UP
+            {footerDate}
           </p>
         </div>
       </aside>

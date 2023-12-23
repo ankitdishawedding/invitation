@@ -2,14 +2,15 @@ import React from "react";
 import Bride from "../../assets/images/bride.jpeg";
 import Groom from "../../assets/images/groom.jpeg";
 import data from "../../ssr.json";
+import Carousel from "./carousel";
 
 function Bridegroom() {
-  const { BrideName, daughterOf } = data["brideDetails"];
+  const { brideName, daughterOf } = data["brideDetails"];
   const { groomName, sonOf } = data["groomDetails"];
   return (
     <div id="couple" className="bridegroom clear section-padding bg-pink">
       <div className="container">
-        <div className="row mb-60">
+        {/* <div className="row mb-60">
           <div className="col-md-6">
             <div
               className="item toright mb-30 animate-box"
@@ -25,8 +26,8 @@ function Bridegroom() {
                     {groomName}
                     <i className="ti-heart"></i>
                   </h6>{" "}
-                  <span>The Bride</span>
-                  <p>Daughter of MRs. Anju Tyagi and MR. Anand Tyagi</p>
+                  <span>The Groom</span>
+                  <p>Son of {sonOf}</p>
                   <div className="social">
                     <div className="full-width">
                       <a href="#0" className="icon">
@@ -59,10 +60,11 @@ function Bridegroom() {
               <div className="info valign">
                 <div className="full-width">
                   <h6>
-                    Gopal Jee <i className="ti-heart"></i>
+                    {brideName}
+                    <i className="ti-heart"></i>
                   </h6>{" "}
-                  <span>The Groom</span>
-                  <p>Son of MRs. Baby Kumari and MR. Rabindra Kumar </p>
+                  <span>The Bride</span>
+                  <p>Daughter of {daughterOf} </p>
                   <div className="social">
                     <div className="full-width">
                       <a href="#0" className="icon">
@@ -83,7 +85,12 @@ function Bridegroom() {
               </div>
             </div>
           </div>
+        </div> */}
+        <div>
+          <Carousel />
+          <Carousel />
         </div>
+
         <div className="row">
           <div
             className="col-md-12 text-center animate-box"

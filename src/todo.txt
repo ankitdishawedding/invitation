@@ -11,7 +11,7 @@ carousel in person details
 
 1.Continuous integration
 2.Config driven
-3.Tailwind CSS integration
+3.Tailwind CSS integration ✅
 4.Color changes
 5.Update content
 
