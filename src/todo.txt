@@ -1,0 +1,14 @@
+Tailwind CSS
+Continuous integration
+update content
+config driven
+PWA
+Song player
+home page modifications
+controller
+carousel in person details
+color changes
+
+
+
+   

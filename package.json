@@ -1,5 +1,6 @@
 {
-  "name": "latest_wedding_card",
+  "name": "wedding",
+  "homepage": "https://ankitdishawedding.github.io/invitation",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
