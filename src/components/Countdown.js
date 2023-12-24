@@ -45,6 +45,7 @@ function Countdown() {
   }, []);
   return (
     <div
+      data-section
       id="countdown"
       className="section-padding bg-img bg-fixed"
       data-background="images/banner-1.jpg"

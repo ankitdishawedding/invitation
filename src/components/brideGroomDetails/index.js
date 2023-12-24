@@ -16,7 +16,11 @@ function Bridegroom() {
   ];
 
   return (
-    <div id="couple" className="bridegroom clear section-padding bg-pink">
+    <div
+      data-section
+      id="couple"
+      className="bridegroom clear section-padding bg-pink"
+    >
       <div className="container">
         {/* <div className="row mb-60">
           <div className="col-md-6">

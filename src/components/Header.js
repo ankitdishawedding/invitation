@@ -6,7 +6,7 @@ function Header() {
 
   const { heading, placeAndDate } = data["homePage"];
   return (
-    <header id="home" className="header valign bg-img parallaxie">
+    <header data-section id="home" className="header valign bg-img parallaxie">
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center caption">
