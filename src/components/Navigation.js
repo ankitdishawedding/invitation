@@ -1,14 +1,35 @@
-import React, { useState } from "react";
-
+import React, { useEffect, useState } from "react";
+import { Link } from "react-scroll";
 const Navigation = () => {
   const Menus = [
-    { name: "Home", icon: "home-outline", dis: "translate-x-0" },
-    { name: "Profile", icon: "person-outline", dis: "translate-x-16" },
-    { name: "Message", icon: "chatbubble-outline", dis: "translate-x-32" },
-    { name: "Photos", icon: "camera-outline", dis: "translate-x-48" },
-    { name: "Settings", icon: "settings-outline", dis: "translate-x-64" },
+    { name: "Home", icon: "home-outline", dis: "translate-x-0", id: "home" },
+    {
+      name: "Gallery",
+      icon: "person-outline",
+      dis: "translate-x-16",
+      id: "couple",
+    },
+    {
+      name: "Message",
+      icon: "chatbubble-outline",
+      dis: "translate-x-32",
+      id: "countdown",
+    },
+    {
+      name: "Photos",
+      icon: "camera-outline",
+      dis: "translate-x-48",
+      id: "organization",
+    },
+    {
+      name: "Settings",
+      icon: "settings-outline",
+      dis: "translate-x-64",
+      id: "whenwhere",
+    },
   ];
   const [active, setActive] = useState(0);
+
   return (
     <div className="bg-white max-h-[4.4rem] px-6 rounded-t-xl flex justify-center">
       <ul className="flex relative">
@@ -27,13 +48,18 @@ const Navigation = () => {
         </span>
         {Menus.map((menu, i) => (
           <li key={i} className="w-16">
-            <a
+            <Link
+              to={menu.id}
+              spy={true}
+              smooth={true}
+              offset={50}
+              duration={500}
               className="flex flex-col text-center pt-6"
               onClick={() => setActive(i)}
             >
               <span
                 className={`text-xl cursor-pointer duration-500 ${
-                  i === active && "-mt-6 text-white"
+                  i === active ? "-mt-6 text-white" : "mt-0"
                 }`}
               >
                 <ion-icon name={menu.icon}></ion-icon>
@@ -47,7 +73,7 @@ const Navigation = () => {
               >
                 {menu.name}
               </span>
-            </a>
+            </Link>
           </li>
         ))}
       </ul>

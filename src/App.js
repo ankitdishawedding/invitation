@@ -23,7 +23,7 @@ function App() {
         <Seeyou />
         <Where />
         <Footer />
-        <div className="fixed bottom-0 w-full block md:hidden">
+        <div className="fixed bottom-0 w-full block md:hidden z-10">
           <Navigation />
         </div>
       </div>
