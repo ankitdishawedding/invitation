@@ -26,8 +26,8 @@ function App() {
 
       if (visibleSection) {
         if (visibleSection.id === "home") setActiveStep(0);
-        if (visibleSection.id === "couple") setActiveStep(2);
-        if (visibleSection.id === "countdown") setActiveStep(3);
+        if (visibleSection.id === "couple") setActiveStep(1);
+        if (visibleSection.id === "countdown") setActiveStep(2);
       }
     });
 

@@ -10,7 +10,13 @@ const Carousel = ({ cardsData }) => {
 
   return (
     <div>
-      <Swiper effect={"cards"} grabCursor={true} modules={[EffectCards]}>
+      <Swiper
+        effect={"cards"}
+        grabCursor={true}
+        modules={[EffectCards]}
+        data-section
+        id="couple"
+      >
         {cardsData?.map((card) => (
           <SwiperSlide key={card.id}>
             <img
@@ -20,6 +26,7 @@ const Carousel = ({ cardsData }) => {
               }
               alt="img"
               style={{
+                pointerEvents: "none",
                 height: "100%",
                 objectFit: "cover",
               }}
