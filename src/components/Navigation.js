@@ -10,7 +10,7 @@ const Navigation = () => {
   ];
   const [active, setActive] = useState(0);
   return (
-    <div className="bg-white max-h-[4.4rem] px-6 rounded-t-xl">
+    <div className="bg-white max-h-[4.4rem] px-6 rounded-t-xl flex justify-center">
       <ul className="flex relative">
         <span
           className={`bg-rose-600 duration-500 ${Menus[active].dis} border-4 border-gray-900 h-16 w-16 absolute
