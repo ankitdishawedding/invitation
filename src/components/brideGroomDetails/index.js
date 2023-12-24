@@ -95,8 +95,8 @@ function Bridegroom() {
           </div>
         </div> */}
         <div className="flex flex-col md:flex-row justify-evenly gap-4 ">
-          {/* <Carousel cardsData={data1} />
-          <Carousel cardsData={data1} /> */}
+          <Carousel cardsData={data1} />
+          <Carousel cardsData={data1} />
           {/* <Carousel /> */}
         </div>
 
