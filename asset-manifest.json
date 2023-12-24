@@ -1,13 +1,20 @@
 {
   "files": {
     "main.css": "/invitation/static/css/main.b3b7a84a.css",
-    "main.js": "/invitation/static/js/main.e3fb4127.js",
+    "main.js": "/invitation/static/js/main.8da672aa.js",
     "static/js/787.cf61719d.chunk.js": "/invitation/static/js/787.cf61719d.chunk.js",
     "static/media/banner.jpg": "/invitation/static/media/banner.957e8a5ba882942f3de2.jpg",
+    "static/media/ankit_jiju.jpeg": "/invitation/static/media/ankit_jiju.81d6b29811f7a1ffdf8d.jpeg",
+    "static/media/ankit_sister.jpeg": "/invitation/static/media/ankit_sister.23cfc60398bdfba46cb9.jpeg",
     "static/media/banner-3.jpg": "/invitation/static/media/banner-3.323d8d5b63350e17d23c.jpg",
     "static/media/Slider.jpg": "/invitation/static/media/Slider.c7a38ee4f60be3c665aa.jpg",
     "static/media/banner-2.jpg": "/invitation/static/media/banner-2.51ae9d2a7106e3cbd9a6.jpg",
+    "static/media/ankit.jpeg": "/invitation/static/media/ankit.5ab1afc2be13f36e3f00.jpeg",
     "static/media/story.jpg": "/invitation/static/media/story.e4e9411f35d517ee7ce8.jpg",
+    "static/media/ankit_papa.jpeg": "/invitation/static/media/ankit_papa.fad4d5879d7e1768876f.jpeg",
+    "static/media/banner-1.jpg": "/invitation/static/media/banner-1.4213750cd879b539aad7.jpg",
+    "static/media/sister.jpeg": "/invitation/static/media/sister.740f5ea248583aefdf5f.jpeg",
+    "static/media/ankit_mom.jpeg": "/invitation/static/media/ankit_mom.dbb0071e51b43adfe6f5.jpeg",
     "static/media/where-3.jpg": "/invitation/static/media/where-3.b0a204f7b46484fe0946.jpg",
     "static/media/where-2.jpg": "/invitation/static/media/where-2.1f12a5cd2a1941f69537.jpg",
     "static/media/where-1.jpg": "/invitation/static/media/where-1.72bfde4abe42e64b657f.jpg",
@@ -18,15 +25,16 @@
     "static/media/5.jpg": "/invitation/static/media/5.d6bba86403ab29a90d38.jpg",
     "static/media/1.jpg": "/invitation/static/media/1.edb888e0b08a955ca051.jpg",
     "static/media/3.jpg": "/invitation/static/media/3.29964c6dae20f6c7ed22.jpg",
+    "static/media/ankit_tyagi.jpg": "/invitation/static/media/ankit_tyagi.39f561b7ae3bdb0adbd6.jpg",
     "service-worker.js": "/invitation/service-worker.js",
     "static/media/logo.png": "/invitation/static/media/logo.c89c62cf4afa1505b090.png",
     "index.html": "/invitation/index.html",
     "main.b3b7a84a.css.map": "/invitation/static/css/main.b3b7a84a.css.map",
-    "main.e3fb4127.js.map": "/invitation/static/js/main.e3fb4127.js.map",
+    "main.8da672aa.js.map": "/invitation/static/js/main.8da672aa.js.map",
     "787.cf61719d.chunk.js.map": "/invitation/static/js/787.cf61719d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3b7a84a.css",
-    "static/js/main.e3fb4127.js"
+    "static/js/main.8da672aa.js"
   ]
 }
