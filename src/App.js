@@ -1,3 +1,4 @@
+import Navigation from "./components/Navigation";
 import Bridegroom from "./components/brideGroomDetails";
 import Countdown from "./components/Countdown";
 import Footer from "./components/Footer";
@@ -22,6 +23,9 @@ function App() {
         <Seeyou />
         <Where />
         <Footer />
+        <div className="fixed bottom-0 w-full block md:hidden">
+          <Navigation />
+        </div>
       </div>
     </>
   );

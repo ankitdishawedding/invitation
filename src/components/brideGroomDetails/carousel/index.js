@@ -10,9 +10,9 @@ const Carousel = ({ cardsData }) => {
 
   return (
     <div>
-      <Swiper effect={"cards"} grabCursor={true} modules={[EffectCards]}>
+      {/* <Swiper effect={"cards"} grabCursor={true} modules={[EffectCards]}>
         {cardsData?.map((card) => (
-          <SwiperSlide>
+          <SwiperSlide key={card.id}>
             <img
               src={
                 card?.imgUrl &&
@@ -26,7 +26,7 @@ const Carousel = ({ cardsData }) => {
             />
           </SwiperSlide>
         ))}
-      </Swiper>
+      </Swiper> */}
     </div>
   );
 };
