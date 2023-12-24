@@ -17,12 +17,12 @@ const Navigation = () => {
          -top-5 rounded-full`}
         >
           <span
-          //   className="w-3.5 h-3.5 bg-transparent absolute top-4 -left-[18px]
-          // rounded-tr-[11px] shadow-myShadow1"
+            className="w-3.5 h-3.5 bg-transparent absolute top-4 -left-[18px]
+          rounded-tr-[11px] shadow-myShadow1"
           ></span>
           <span
-          //   className="w-3.5 h-3.5 bg-transparent absolute top-4 -right-[18px]
-          // rounded-tl-[11px] shadow-myShadow2"
+            className="w-3.5 h-3.5 bg-transparent absolute top-4 -right-[18px]
+          rounded-tl-[11px] shadow-myShadow2"
           ></span>
         </span>
         {Menus.map((menu, i) => (
