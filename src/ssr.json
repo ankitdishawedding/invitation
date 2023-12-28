@@ -20,5 +20,11 @@
   "groomDetails": {
     "groomName": "Ankit Tyagi",
     "sonOf": " MR. Anand Kumar Tyagi and MRs. Anju Tyagi"
+  },
+  "footer": {
+    "heading": "Ankit & Disha",
+    "linkToNavigate": "https://www.linkedin.com/in/ankittyagi-webdeveloper/",
+    "ctaText": "Made with ❤️ By Ankit Tyagi",
+    "footerDate": "14th Feb 2024, Ghaziabad,UP"
   }
 }

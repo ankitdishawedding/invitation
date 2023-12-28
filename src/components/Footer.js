@@ -1,30 +1,28 @@
 import React from "react";
 import Logo from "../assets/images/logo.png";
+import data from "../ssr.json";
 function Footer() {
+  const { heading, footerDate, linkToNavigate, ctaText } = data["footer"];
   return (
     <div className="footer2">
       <div className="oliven-narrow-content">
         <div className="row">
-          <div className="col-md-12 text-center">
+          <div className="col-md-12  flex  flex-col justify-center items-center text-center">
+            <img src={Logo} alt="" />
             <h2>
               <a href="/">
-                <img src={Logo} alt="" />
-                <span>
-                  Shweta <small>&</small> Gopal
-                </span>
+                <span>{heading}</span>
               </a>
             </h2>
-            <p className="copyright">
-              November 21, 2021 –Meerut, Uttar Pradesh
-            </p>
+            <p className="copyright">{footerDate}</p>
             <a
-              href="https://www.linkedin.com/in/ankittyagi-webdeveloper/"
+              href={linkToNavigate}
               alt="linkedin"
               target="_blank"
               className="copyright"
               style={{ marginTop: "5px" }}
             >
-              Made with ❤️ By Ankit Tyagi
+              {ctaText}
             </a>
           </div>
         </div>

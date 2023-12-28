@@ -1,19 +1,21 @@
 PWA
 Song player
 home page modifications
-controller
-carousel in person details
+i18 functionally
 
+Save the date feature--> Calender ics
 
 
 
 /**** Completed ****/
 
-1.Continuous integration
-2.Config driven
-3.Tailwind CSS integration ✅
-4.Color changes
-5.Update content
+1.Continuous integration ✅
+2.Tailwind CSS integration ✅
+3.carousel in person details ✅
+4.Config driven -->Update content ✅
+5.controller ✅
+6.Color changes
+
 
 
    

@@ -12,6 +12,7 @@ import Story from "./components/Story";
 import Where from "./components/Where";
 import { useEffect, useRef, useState } from "react";
 import { BrowserRouter } from "react-router-dom";
+import MusicPlayerSlider from "./components/MusicPlayer";
 
 function App() {
   const [activeStep, setActiveStep] = useState(0);
@@ -19,7 +20,6 @@ function App() {
 
   useEffect(() => {
     observer.current = new IntersectionObserver((entries) => {
-      debugger;
       const visibleSection = entries.find(
         (entry) => entry.isIntersecting
       )?.target;
@@ -44,7 +44,7 @@ function App() {
     };
   }, []);
   return (
-    <BrowserRouter>
+    <>
       <Sidebar />
       <div id="oliven-main">
         <Header />
@@ -55,10 +55,14 @@ function App() {
         <Where />
         <Footer />
         <div className="fixed bottom-0 w-full block md:hidden z-10">
-          <Navigation activeStep={activeStep} setActiveStep={setActiveStep} />
+          <MusicPlayerSlider />
+          <Navigation
+            activeStep={activeStep}
+            setActiveStep={(i) => setActiveStep(i)}
+          />
         </div>
       </div>
-    </BrowserRouter>
+    </>
   );
 }
 

@@ -1,28 +1,12 @@
 import React from "react";
-
-import data from "../../ssr.json";
-import Carousel from "./carousel";
+import Bride from "../../assets/images/ankit_tyagi.jpg";
+import Groom from "../../assets/images/ankit_tyagi.jpg";
 
 function Bridegroom() {
-  const { brideName, daughterOf } = data["brideDetails"];
-  const { groomName, sonOf } = data["groomDetails"];
-
-  const data1 = [
-    { id: 1, imgUrl: "ankit_tyagi.jpg" },
-    { id: 2, imgUrl: "ankit_papa.jpeg" },
-    { id: 5, imgUrl: "ankit_mom.jpeg" },
-    { id: 3, imgUrl: "ankit_sister.jpeg" },
-    { id: 4, imgUrl: "ankit_jiju.jpeg" },
-  ];
-
   return (
-    <div
-      data-section
-      id="couple"
-      className="bridegroom clear section-padding bg-pink"
-    >
+    <div id="couple" className="bridegroom clear section-padding bg-pink">
       <div className="container">
-        {/* <div className="row mb-60">
+        <div className="row mb-60">
           <div className="col-md-6">
             <div
               className="item toright mb-30 animate-box"
@@ -35,11 +19,13 @@ function Bridegroom() {
               <div className="info valign">
                 <div className="full-width">
                   <h6>
-                    {groomName}
-                    <i className="ti-heart"></i>
+                    सुमित त्यागी<i className="ti-heart"></i>
                   </h6>{" "}
-                  <span>The Groom</span>
-                  <p>Son of {sonOf}</p>
+                  <span>दूल्हा</span>
+                  <p>
+                    सुपुत्र स्व.श्री मती बाला त्यागी एवं स्व.श्री राम सिंह
+                    त्यागी
+                  </p>
                   <div className="social">
                     <div className="full-width">
                       <a href="#0" className="icon">
@@ -72,11 +58,10 @@ function Bridegroom() {
               <div className="info valign">
                 <div className="full-width">
                   <h6>
-                    {brideName}
-                    <i className="ti-heart"></i>
+                    प्रमीला <i className="ti-heart"></i>
                   </h6>{" "}
-                  <span>The Bride</span>
-                  <p>Daughter of {daughterOf} </p>
+                  <span>दुल्हन</span>
+                  <p>सुपुत्री श्री मती विमला देवी एवं श्री राजकुमार</p>
                   <div className="social">
                     <div className="full-width">
                       <a href="#0" className="icon">
@@ -97,13 +82,7 @@ function Bridegroom() {
               </div>
             </div>
           </div>
-        </div> */}
-        <div className="flex flex-col md:flex-row justify-evenly gap-4 ">
-          <Carousel cardsData={data1} />
-          <Carousel cardsData={data1} />
-          {/* <Carousel /> */}
         </div>
-
         <div className="row">
           <div
             className="col-md-12 text-center animate-box"
@@ -111,7 +90,7 @@ function Bridegroom() {
           >
             <h3 className="oliven-couple-title">Are getting married!</h3>
             <h4 className="oliven-couple-subtitle">
-              November 21st, 2021 — Meerut, Uttar Pradesh
+              4 मार्च, 2022 –चौपाल नं.2,गांव घॏण्डली कृष्णा नगर दिल्ली
             </h4>
           </div>
         </div>
