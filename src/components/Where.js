@@ -63,11 +63,6 @@ function Where() {
               </a>
             </div>
           </div>
-          <div className="item col-12 col-md-4">
-            <div className="whenwhere-img">
-              <img src={where3} alt="" />
-            </div>
-          </div>
         </div>
       </div>
     </div>

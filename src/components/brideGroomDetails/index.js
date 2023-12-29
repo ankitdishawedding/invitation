@@ -63,7 +63,7 @@ function Bridegroom() {
                     {brideName} <i className="ti-heart"></i>
                   </h6>{" "}
                   <span>Bride</span>
-                  <p>Daughter of {daughterOf}</p>
+                  <p>{daughterOf}</p>
                   <div className="social">
                     <div className="full-width">
                       <a href="#0" className="icon">
