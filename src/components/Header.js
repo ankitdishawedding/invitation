@@ -6,16 +6,7 @@ function Header({ setPlay, play, handlePlay, song }) {
 
   const { heading, placeAndDate } = data["homePage"];
   return (
-    <header
-      id="home"
-      className="header valign bg-img parallaxie"
-      onClick={() => {
-        if (ref.current === 0) {
-          handlePlay("home");
-          ref.current = 1;
-        }
-      }}
-    >
+    <header id="home" className="header valign bg-img parallaxie">
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center caption">

@@ -82,7 +82,7 @@ export default function Navigation({ activeStep, setActiveStep }) {
     setValue(newValue);
     setActiveStep(2);
   };
-  console.log(activeStep);
+
   const Menus = [
     {
       label: "Home",
@@ -118,6 +118,14 @@ export default function Navigation({ activeStep, setActiveStep }) {
     <BottomNavigation
       //   className="w-full h-20 shadow-xl rounded-t-xl bg-red-400 "
       value={value}
+      sx={{
+        "& .MuiButtonBase-root.MuiBottomNavigationAction-root.Mui-selected.Mui-selected":
+          {
+            color: "#a22a27",
+            fontSize: "5px",
+            fontFamily: "cursive",
+          },
+      }}
       onChange={handleChange}
     >
       {/* <Link

@@ -29,7 +29,7 @@ function App() {
       setPlay(false);
     }
   };
-
+  const ref = useRef(0);
   const [activeStep, setActiveStep] = useState(0);
   const observer = useRef(null);
 
@@ -61,7 +61,7 @@ function App() {
   return (
     <>
       <Sidebar />
-      <div id="oliven-main" onClick={() => handlePlay("home")}>
+      <div id="oliven-main">
         <Header
           play={play}
           setPlay={setPlay}
