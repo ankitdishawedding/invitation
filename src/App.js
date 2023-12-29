@@ -61,7 +61,7 @@ function App() {
   return (
     <>
       <Sidebar />
-      <div id="oliven-main">
+      <div id="oliven-main" onClick={() => handlePlay("home")}>
         <Header
           play={play}
           setPlay={setPlay}

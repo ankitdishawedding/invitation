@@ -1,11 +1,17 @@
+import music from "../assets/music1.mp3";
+import MusicOffIcon from "@mui/icons-material/MusicOff";
+import MusicNoteIcon from "@mui/icons-material/MusicNote";
+
 const MusicPlayer = ({ play, setPlay, song, handlePlay }) => {
   return (
-    <div className="fixed bottom-10 right-0 text-red-800 bg-white">
-      <button className="rounded-full" onClick={() => handlePlay("music")}>
-        {play ? "pause" : "play"}
+    <div className="fixed bottom-20 right-3 md:bottom-8 md:right-8">
+      <button
+        className="rounded-full h-3 w-3 p-3 flex justify-center items-center bg-white text-red-900"
+        onClick={() => handlePlay("music")}
+      >
+        {play ? <MusicOffIcon /> : <MusicNoteIcon />}
       </button>
-      ;
-      <audio ref={song} src={"/music1.mp3"} loop />
+      <audio ref={song} src={music} loop />
     </div>
   );
 };
