@@ -92,21 +92,21 @@ export default function Navigation({ activeStep, setActiveStep }) {
       id: "home",
     },
     {
-      label: "Gallery",
+      label: "Couple",
       value: "couple",
       icon: <CollectionsRoundedIcon />,
       dis: "translate-x-16",
       id: "couple",
     },
     {
-      label: "Photos",
+      label: "Events",
       value: "organization",
       icon: <EventNoteRoundedIcon />,
       dis: "translate-x-48",
       id: "organization",
     },
     {
-      label: "Settings",
+      label: "Location",
       icon: <LocationOnRoundedIcon />,
       dis: "translate-x-64",
       id: "whenwhere",
@@ -119,6 +119,9 @@ export default function Navigation({ activeStep, setActiveStep }) {
       //   className="w-full h-20 shadow-xl rounded-t-xl bg-red-400 "
       value={value}
       sx={{
+        "& .MuiBottomNavigation-root": {
+          borderRadius: "10px 10px 0px 0px",
+        },
         "& .MuiButtonBase-root.MuiBottomNavigationAction-root.Mui-selected.Mui-selected":
           {
             color: "#a22a27",

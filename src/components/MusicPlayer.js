@@ -1,4 +1,4 @@
-import music from "../assets/music1.mp3";
+import music from "../assets/AajSajeya.mp3";
 import MusicOffIcon from "@mui/icons-material/MusicOff";
 import MusicNoteIcon from "@mui/icons-material/MusicNote";
 
