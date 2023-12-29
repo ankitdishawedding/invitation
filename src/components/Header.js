@@ -1,12 +1,21 @@
-import React from "react";
+import React, { useRef } from "react";
 import data from "../ssr.json";
 
-function Header() {
-  console.log(data);
+function Header({ setPlay, play, handlePlay, song }) {
+  const ref = useRef(0);
 
   const { heading, placeAndDate } = data["homePage"];
   return (
-    <header data-section id="home" className="header valign bg-img parallaxie">
+    <header
+      id="home"
+      className="header valign bg-img parallaxie"
+      onClick={() => {
+        if (ref.current === 0) {
+          handlePlay("home");
+          ref.current = 1;
+        }
+      }}
+    >
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center caption">

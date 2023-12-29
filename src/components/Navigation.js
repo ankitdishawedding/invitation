@@ -132,40 +132,12 @@ export default function Navigation({ activeStep, setActiveStep }) {
         </Link> */}
       {Menus.map((menu, i) => (
         <BottomNavigationAction
+          key={i}
           label={menu?.label}
           value={menu?.value}
           icon={menu?.icon}
         />
       ))}
-      {/* <Link
-          to={menu.id}
-          spy={true}
-          smooth={true}
-          offset={50}
-          duration={500}
-          onClick={() => {
-            setActiveStep(i);
-          }}
-        >
-         
-        </Link> */}
-      ))}
-      {/* <BottomNavigationAction
-        label="Recents"
-        value="recents"
-        icon={<RestoreIcon />}
-      />
-
-      <BottomNavigationAction
-        label="Nearby"
-        value="nearby"
-        icon={<LocationOnIcon />}
-      />
-      <BottomNavigationAction
-        label="Folder"
-        value="folder"
-        icon={<FolderIcon />}
-      /> */}
     </BottomNavigation>
   );
 }

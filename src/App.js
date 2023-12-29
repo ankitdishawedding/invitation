@@ -13,8 +13,23 @@ import Where from "./components/Where";
 import { useEffect, useRef, useState } from "react";
 import { BrowserRouter } from "react-router-dom";
 import MusicPlayerSlider from "./components/MusicPlayer";
+import MusicPlayer from "./components/MusicPlayer";
 
 function App() {
+  const [play, setPlay] = useState(false);
+
+  const song = useRef(null);
+  const handlePlay = (id) => {
+    if (!play) {
+      song.current?.play();
+      setPlay(true);
+    }
+    if (play && id === "music") {
+      song.current?.pause();
+      setPlay(false);
+    }
+  };
+
   const [activeStep, setActiveStep] = useState(0);
   const observer = useRef(null);
 
@@ -47,15 +62,26 @@ function App() {
     <>
       <Sidebar />
       <div id="oliven-main">
-        <Header />
+        <Header
+          play={play}
+          setPlay={setPlay}
+          handlePlay={handlePlay}
+          song={song}
+        />
         <Bridegroom />
         <Countdown />
         <Organization />
         <Seeyou />
         <Where />
+        <MusicPlayer
+          play={play}
+          setPlay={setPlay}
+          handlePlay={handlePlay}
+          song={song}
+        />
         <Footer />
+
         <div className="fixed bottom-0 w-full block md:hidden z-10">
-          <MusicPlayerSlider />
           <Navigation
             activeStep={activeStep}
             setActiveStep={(i) => setActiveStep(i)}
