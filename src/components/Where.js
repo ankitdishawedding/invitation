@@ -33,7 +33,7 @@ function Where() {
                 href="https://www.google.com/maps/place/JF-291,+KP+Pocket,+Ganga+Nagar,+Meerut,+Uttar+Pradesh+250001/@29.0069744,77.7596037,19.5z/data=!4m19!1m13!4m12!1m4!2m2!1d77.7594771!2d29.0067639!4e1!1m6!1m2!1s0x390c7ac52a83da9b:0x6a6b4692eac8cce1!2sJF-291,+KP+Pocket,+Ganga+Nagar,+Meerut,+Uttar+Pradesh+250001!2m2!1d77.7594833!2d29.0067792!3m4!1s0x390c7ac52a83da9b:0x6a6b4692eac8cce1!8m2!3d29.0067792!4d77.7594833"
                 target="_blank"
                 alt="wedding-location"
-                style={{ color: "#a22a27", fontWeight: "700" }}
+                style={{ color: "#9A2143", fontWeight: "700" }}
               >
                 Locate Me
               </a>
@@ -46,19 +46,18 @@ function Where() {
             <div className="content">
               <h5>Weddding</h5>
               <p>
-                <i className="ti-location-pin"></i> Paradise View Resort, Ganga
-                Nagar Meerut
+                <i className="ti-location-pin"></i> Imperial Gardens, Ghaziabad
               </p>
               <p>
-                <i className="ti-time"></i> <span>21st November2021 </span>
+                <i className="ti-time"></i> <span>14th Feb 2024</span>
                 {"     "}
                 <span>Time-8:00pm</span>
               </p>
               <a
-                href="https://www.google.com/maps/place/PARADISE+VIEW+RESORT/@29.01662,77.7601334,13z/data=!4m20!1m14!4m13!1m5!1m1!1s0x390c7ac7730dda4d:0xbd489d6bf98d2ac1!2m2!1d77.7601334!2d29.01662!1m6!1m2!1s0x390c7ac7730dda4d:0xbd489d6bf98d2ac1!2sPARADISE+VIEW+RESORT,+Meerut+-+Pauri+National+Hwy,+Meerut,+Uttar+Pradesh+250001!2m2!1d77.7601334!2d29.01662!3m4!1s0x390c7ac7730dda4d:0xbd489d6bf98d2ac1!8m2!3d29.01662!4d77.7601334"
+                href="https://www.google.com/maps/dir//Hapur+Rd,+Gangapuram,+Avantika+Colony,+Shastri+Nagar,+Ghaziabad,+Uttar+Pradesh+201015/@28.6749653,77.435426,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x390cf239184c69bb:0x1667ab0e5fbce4ad!2m2!1d77.4925571!2d28.6798085?entry=ttu"
                 target="_blank"
                 alt="wedding-location"
-                style={{ color: "#a22a27", fontWeight: "700" }}
+                style={{ color: "#9A2143", fontWeight: "700" }}
               >
                 Locate Me
               </a>
@@ -67,24 +66,6 @@ function Where() {
           <div className="item col-12 col-md-4">
             <div className="whenwhere-img">
               <img src={where3} alt="" />
-            </div>
-            <div className="content">
-              <h5>Accomodations</h5>
-              <p>
-                <i className="ti-direction-alt"></i> Hotel Lime Wood (Near
-                Vishal Mega Mart)
-              </p>
-              <p>
-                <i className="ti-direction"></i>Ganga Nagar Meeurt
-              </p>
-              <a
-                href="https://www.google.com/maps/dir/29.0067639,77.7594771/hotel+limewood+meerut/@29.0042491,77.7565893,17z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x390c7ada3a38576b:0x9b45a461de9d050d!2m2!1d77.75861!2d29.0017312"
-                target="_blank"
-                alt="hotel-location"
-                style={{ color: "#a22a27", fontWeight: "700" }}
-              >
-                Locate Me
-              </a>
             </div>
           </div>
         </div>

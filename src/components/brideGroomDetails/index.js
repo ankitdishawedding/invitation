@@ -13,7 +13,7 @@ function Bridegroom() {
         <div className="row mb-60">
           <div className="col-md-6">
             <div
-              className="item toright mb-30 animate-box"
+              className="item to right mb-30 animate-box bg-[#FBF8F2] rounded-lg"
               data-animate-effect="fadeInLeft"
             >
               <div className="img">
@@ -50,7 +50,7 @@ function Bridegroom() {
           </div>
           <div className="col-md-6">
             <div
-              className="item mb-30 animate-box"
+              className="item mb-30 animate-box bg-[#FBF8F2] rounded-lg"
               data-animate-effect="fadeInRight"
             >
               <div className="img">

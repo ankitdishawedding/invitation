@@ -124,7 +124,7 @@ export default function Navigation({ activeStep, setActiveStep }) {
         },
         "& .MuiButtonBase-root.MuiBottomNavigationAction-root.Mui-selected.Mui-selected":
           {
-            color: "#a22a27",
+            color: "#9A2143",
             fontSize: "5px",
             fontFamily: "cursive",
           },

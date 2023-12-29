@@ -58,7 +58,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #000;
+  color: #1e2742;
   font-family: "Cormorant Garamond", serif;
   font-weight: 500;
   line-height: 1.25em;
@@ -79,7 +79,7 @@ ul {
 }
 /* links */
 a {
-  color: #000;
+  color: #1e2742;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -87,7 +87,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-  color: #000;
+  color: #1e2742;
   outline: none;
   text-decoration: none !important;
 }
@@ -108,7 +108,7 @@ small {
 
 b,
 strong {
-  color: #000;
+  color: #1e2742;
   font-weight: 600;
 }
 span,
@@ -128,7 +128,7 @@ table,
 th,
 tr,
 td {
-  border: 1px solid #000;
+  border: 1px solid #1e2742;
 }
 th,
 tr,
@@ -175,7 +175,7 @@ textarea,
   font-size: 15px;
   font-weight: 400;
   line-height: 1.75em;
-  color: #000;
+  color: #1e2742;
   background-image: none;
   border: 1px solid #ececec;
 }
@@ -188,8 +188,8 @@ input[type="reset"],
 input[type="button"],
 button {
   font-family: "Nunito Sans", sans-serif;
-  background: #a22a27;
-  border: 1px solid #a22a27;
+  background: #9a2143;
+  border: 1px solid #9a2143;
   color: #fff;
   padding: 15px 30px;
   margin: 0;
@@ -205,7 +205,7 @@ input[type="reset"]:hover,
 input[type="button"]:hover,
 button:hover {
   background-color: transparent;
-  color: #000;
+  color: #1e2742;
 }
 select {
   padding: 10px;
@@ -255,7 +255,7 @@ input[type="checkbox"]:before {
 input[type="checkbox"]:after {
   font-family: "themify";
   content: "\e64c";
-  color: #a22a27;
+  color: #9a2143;
   background: transparent;
   position: absolute;
   top: 1px;
@@ -298,7 +298,7 @@ input[type="radio"]:before {
   display: inline-block;
   top: 0px;
   left: -4px;
-  background-image: radial-gradient(circle, #a22a27 50%, #fff 70%);
+  background-image: radial-gradient(circle, #9a2143 50%, #fff 70%);
   background-size: 0;
   background-position: 50% 50%;
   background-repeat: no-repeat;
@@ -421,7 +421,7 @@ input[type="radio"]:checked:before {
   align-items: center;
 }
 .bg-pink {
-  background-color: #faf8f7;
+  background-color: #fff;
 }
 .bg-white {
   background-color: #fff;
@@ -435,10 +435,10 @@ input[type="radio"]:checked:before {
   background: #fff;
 }
 ::-webkit-scrollbar-thumb {
-  background: #a22a27;
+  background: #9a2143;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #a22a27;
+  background: #9a2143;
 }
 
 /* ===== Selection ===== */
@@ -468,10 +468,10 @@ input[type="radio"]:checked:before {
 }
 .owl-theme .owl-dots .owl-dot.active span,
 .owl-theme .owl-dots .owl-dot:hover span {
-  background: #a22a27;
+  background: #9a2143;
 }
 .owl-theme .owl-nav [class*="owl-"] {
-  background-color: #a22a27;
+  background-color: #9a2143;
   width: 30px;
   height: 30px;
   line-height: 25px;
@@ -482,7 +482,7 @@ input[type="radio"]:checked:before {
   font-size: 12px;
   margin: 5px;
   padding: 4px 7px;
-  background: #a22a27;
+  background: #9a2143;
   display: inline-block;
   cursor: pointer;
   border-radius: 3px;
@@ -498,8 +498,8 @@ input[type="radio"]:checked:before {
 }
 .owl-theme .owl-nav [class*="owl-"]:hover {
   background-color: transparent;
-  border: 1px solid #a22a27;
-  color: #a22a27;
+  border: 1px solid #9a2143;
+  color: #9a2143;
 }
 
 /* ===== Sidebar style ===== */
@@ -549,7 +549,7 @@ input[type="radio"]:checked:before {
   display: block;
   width: 100%;
   position: relative;
-  color: #000;
+  color: #1e2742;
   line-height: 1.2em;
   letter-spacing: 0px;
 }
@@ -568,7 +568,7 @@ input[type="radio"]:checked:before {
   text-align: center;
   font-size: 10px;
   letter-spacing: 5px;
-  color: #000;
+  color: #1e2742;
   margin-bottom: 5px;
 }
 #oliven-aside .oliven-logo img {
@@ -586,7 +586,7 @@ input[type="radio"]:checked:before {
 #oliven-aside .oliven-logo a span {
   display: block;
   font-size: 36px;
-  color: #a22a27;
+  color: #9a2143;
   font-family: "Alex Brush", cursive;
   font-weight: 400;
   display: block;
@@ -615,7 +615,7 @@ input[type="radio"]:checked:before {
   list-style: none;
 }
 #oliven-aside .oliven-main-menu ul li a {
-  color: #000;
+  color: #1e2742;
   text-decoration: none;
   position: relative;
   padding: 0;
@@ -630,12 +630,12 @@ input[type="radio"]:checked:before {
   border-bottom: 1px solid transparent;
 }
 #oliven-aside .oliven-main-menu ul li a:hover {
-  border-bottom: 1px solid #a22a27;
+  border-bottom: 1px solid #9a2143;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 #oliven-aside .oliven-main-menu ul li.oliven-active a {
-  color: #a22a27;
+  color: #9a2143;
 }
 #oliven-aside .oliven-main-menu ul li.oliven-active a:after {
   visibility: visible;
@@ -646,7 +646,7 @@ input[type="radio"]:checked:before {
   transform: scaleX(1);
 }
 #oliven-aside .oliven-main-menu ul li a span:hover {
-  color: #000;
+  color: #1e2742;
 }
 #oliven-aside .footer1 {
   position: absolute;
@@ -664,7 +664,7 @@ input[type="radio"]:checked:before {
   width: 75px;
 }
 #oliven-aside .footer1 a {
-  color: #a22a27;
+  color: #9a2143;
 }
 #oliven-aside .separator {
   width: 60px;
@@ -711,7 +711,7 @@ input[type="radio"]:checked:before {
 }
 .oliven-nav-toggle.dark.active i::before,
 .oliven-nav-toggle.dark.active i::after {
-  background: #000;
+  background: #1e2742;
 }
 .oliven-nav-toggle:hover,
 .oliven-nav-toggle:focus,
@@ -750,15 +750,15 @@ input[type="radio"]:checked:before {
 }
 .oliven-nav-toggle.dark i {
   position: relative;
-  color: #000;
-  background: #000;
+  color: #1e2742;
+  background: #1e2742;
   -webkit-transition: all 0.2s ease-out;
   -o-transition: all 0.2s ease-out;
   transition: all 0.2s ease-out;
 }
 .oliven-nav-toggle.dark i::before,
 .oliven-nav-toggle.dark i::after {
-  background: #000;
+  background: #1e2742;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
@@ -806,7 +806,7 @@ input[type="radio"]:checked:before {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-  background: #a22a27;
+  background: #9a2143;
   margin: 15px 30px;
   border-radius: 50%;
 }
@@ -871,7 +871,7 @@ body.slide .oliven-nav-toggle {
 }
 .header.parallaxie {
   /* background-image: url(./assets/images/slider.jpg); */
-  background-color: #a22a27;
+  background-color: #9a2143;
 }
 @media screen and (max-width: 991px) {
   .header {
@@ -915,7 +915,7 @@ body.slide .oliven-nav-toggle {
 
 /* ===== Title style ===== */
 .oliven-title {
-  color: #000;
+  color: #1e2742;
   font-family: "Cormorant Garamond", serif;
   margin-bottom: 0px;
   font-weight: 500;
@@ -927,7 +927,7 @@ body.slide .oliven-nav-toggle {
   display: block;
 }
 .oliven-story-title {
-  color: #000;
+  color: #1e2742;
   font-family: "Cormorant Garamond", serif;
   font-weight: 500;
   font-size: 30px;
@@ -942,7 +942,7 @@ body.slide .oliven-nav-toggle {
   font-family: "Alex Brush", cursive;
   font-weight: 400;
   font-size: 30px;
-  color: #a22a27;
+  color: #9a2143;
   line-height: 1.25em;
   margin-bottom: 10px;
 }
@@ -953,12 +953,12 @@ body.slide .oliven-nav-toggle {
   font-family: "Alex Brush", cursive;
   font-weight: 400;
   font-size: 60px;
-  color: #a22a27;
+  color: #9a2143;
   line-height: 1.5em;
   margin-bottom: 5px;
 }
 .oliven-couple-subtitle {
-  color: #000;
+  color: #1e2742;
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
   font-size: 18px;
@@ -971,7 +971,7 @@ body.slide .oliven-nav-toggle {
   font-family: "Alex Brush", cursive;
   font-weight: 400;
   font-size: 30px;
-  color: #a22a27;
+  color: #9a2143;
   line-height: 1.5em;
   margin-bottom: 10px;
 }
@@ -979,8 +979,6 @@ body.slide .oliven-nav-toggle {
 /* ======= Bride & Groom style ======= */
 .bridegroom .item {
   padding: 30px;
-  border-radius: 0px;
-  background: #fff;
   position: relative;
   overflow: hidden;
 }
@@ -999,11 +997,11 @@ body.slide .oliven-nav-toggle {
   margin-bottom: 5px;
 }
 .bridegroom .info h6 i {
-  color: #a22a27;
+  color: #9a2143;
   font-size: 16px;
 }
 .bridegroom .info span {
-  color: #a22a27;
+  color: #9a2143;
   font-size: 24px;
   font-weight: 400;
   font-family: "Alex Brush", cursive;
@@ -1026,8 +1024,8 @@ body.slide .oliven-nav-toggle {
   font-size: 12px;
 }
 .bridegroom .info .social a:hover {
-  background-color: #a22a27;
-  border-color: #a22a27;
+  background-color: #9a2143;
+  border-color: #9a2143;
   color: #fff;
 }
 .bridegroom .toright .img {
@@ -1140,7 +1138,7 @@ body.slide .oliven-nav-toggle {
   right: 0;
   left: 45px;
   bottom: 0;
-  border: 10px solid #a22a27;
+  border: 10px solid #9a2143;
 }
 .story .story-img .img img {
   position: relative;
@@ -1217,7 +1215,7 @@ body.slide .oliven-nav-toggle {
 .organization .item-box {
   padding: 60px 30px;
   height: 100%;
-  background-color: #fff;
+  background-color: #fbf8f2;
   border: 1px solid #f6f1f0;
   border-right: 0;
   -webkit-transition: all 0.4s;
@@ -1241,7 +1239,7 @@ body.slide .oliven-nav-toggle {
   font-size: 75px;
   margin-bottom: 15px;
   color: transparent;
-  -webkit-text-stroke: 1px #a22a27;
+  -webkit-text-stroke: 1px #9a2143;
 }
 .organization .item-box .title {
   font-size: 21px;
@@ -1249,7 +1247,7 @@ body.slide .oliven-nav-toggle {
   margin-bottom: 15px;
   text-transform: uppercase;
   font-family: "Cormorant Garamond", serif;
-  color: #000;
+  color: #1e2742;
 }
 .organization .item-box.bg-img {
   position: relative;
@@ -1319,7 +1317,7 @@ body.slide .oliven-nav-toggle {
 .gallery-menu a.active,
 .gallery-menu a:hover {
   color: #fff;
-  background-color: #a22a27;
+  background-color: #9a2143;
 }
 .gallery-item {
   position: relative;
@@ -1399,14 +1397,15 @@ body.slide .oliven-nav-toggle {
 }
 .whenwhere .item .content {
   padding: 20px 20px 30px 20px;
-  background: #fff;
+  background: #fbf8f2;
+  border-radius: 8px;
 }
 .whenwhere .item .content .tag a {
   color: #888;
   font-style: italic;
 }
 .whenwhere .item .content .tag a:hover {
-  color: #a22a27;
+  color: #9a2143;
 }
 .whenwhere .item .content h5 {
   font-size: 21px;
@@ -1415,7 +1414,7 @@ body.slide .oliven-nav-toggle {
   text-transform: uppercase;
 }
 .whenwhere .item .content p i {
-  color: #a22a27;
+  color: #9a2143;
 }
 .whenwhere-entry {
   width: 100%;
@@ -1459,7 +1458,7 @@ body.slide .oliven-nav-toggle {
   margin-bottom: 15px;
 }
 .whenwhere-entry .desc h3 a {
-  color: #000;
+  color: #1e2742;
   text-decoration: none;
   font-family: "Nunito Sans", sans-serif;
   font-weight: 500;
@@ -1485,8 +1484,8 @@ body.slide .oliven-nav-toggle {
 }
 .buttono a {
   font-family: "Nunito Sans", sans-serif;
-  background: #a22a27;
-  border: 1px solid #a22a27;
+  background: #9a2143;
+  border: 1px solid #9a2143;
   color: #fff;
   padding: 10px 20px;
   margin: 0;
@@ -1505,7 +1504,7 @@ body.slide .oliven-nav-toggle {
   left: 100%;
   z-index: 1;
   background: #fff;
-  color: #000;
+  color: #1e2742;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -1522,7 +1521,7 @@ body.slide .oliven-nav-toggle {
 
 .buttono a:hover,
 .buttono a:hover span {
-  color: #000;
+  color: #1e2742;
 }
 
 /* ===== Footer style ===== */
@@ -1531,7 +1530,7 @@ body.slide .oliven-nav-toggle {
 }
 .footer2 {
   padding: 90px 30px;
-  background: #faf8f7;
+  background: #fff;
 }
 .footer2 img {
   width: 90px;
@@ -1545,7 +1544,7 @@ body.slide .oliven-nav-toggle {
   display: block;
   width: 100%;
   position: relative;
-  color: #000;
+  color: #1e2742;
   line-height: 1em;
   letter-spacing: 0px;
   margin-bottom: 0;
@@ -1555,10 +1554,10 @@ body.slide .oliven-nav-toggle {
   display: block;
   font-family: "Alex Brush", cursive;
   font-weight: 400;
-  color: #000;
+  color: #1e2742;
 }
 .footer2 h2 a i {
-  color: #000;
+  color: #1e2742;
   font-size: 16px;
   vertical-align: super;
 }
@@ -1613,7 +1612,7 @@ body.slide .oliven-nav-toggle {
   position: absolute;
   width: 26px;
   height: 26px;
-  background: #a22a27;
+  background: #9a2143;
   animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
 }
 .lds-heart div:after,
@@ -1623,7 +1622,7 @@ body.slide .oliven-nav-toggle {
   display: block;
   width: 26px;
   height: 26px;
-  background: #a22a27;
+  background: #9a2143;
 }
 .lds-heart div:before {
   left: -17px;
@@ -1768,17 +1767,17 @@ body.slide .oliven-nav-toggle {
 }
 .blog-page .post-cont .tag:hover,
 .blog-page .post-cont .date:hover {
-  color: #a22a27;
+  color: #9a2143;
 }
 .blog-page .post-cont h5 {
   font-size: 27px;
   margin-bottom: 15px;
 }
 .blog-page .post-cont h5 a {
-  color: #000;
+  color: #1e2742;
 }
 .blog-page .post-cont h5 a:hover {
-  color: #a22a27;
+  color: #9a2143;
 }
 .blog-page .post-cont .info {
   margin-top: 0px;
@@ -1787,14 +1786,14 @@ body.slide .oliven-nav-toggle {
 }
 .blog-page .post-cont .info a {
   font-size: 12px;
-  color: #000;
+  color: #1e2742;
 }
 .blog-page .post-cont .info a:last-of-type {
   float: right;
 }
 /* blog sidebar */
 .blog-sidebar .widget {
-  background: #faf8f7;
+  background: #fff;
   padding: 30px;
   margin-bottom: 30px;
   overflow: hidden;
@@ -1809,16 +1808,16 @@ body.slide .oliven-nav-toggle {
   margin-bottom: 10px;
 }
 .blog-sidebar .widget ul li:hover {
-  color: #a22a27;
+  color: #9a2143;
 }
 .blog-sidebar .widget ul li a {
   color: #888;
 }
 .blog-sidebar .widget ul li a.active {
-  color: #a22a27;
+  color: #9a2143;
 }
 .blog-sidebar .widget ul li a:hover {
-  color: #a22a27;
+  color: #9a2143;
 }
 .blog-sidebar .widget ul li:last-child {
   margin-bottom: 0;
@@ -1867,7 +1866,7 @@ body.slide .oliven-nav-toggle {
   right: 0;
   top: 0;
   background-color: transparent;
-  color: #000;
+  color: #1e2742;
   border: 0;
   padding: 10px;
   cursor: pointer;
@@ -1886,7 +1885,7 @@ body.slide .oliven-nav-toggle {
 .blog-sidebar ul.tags li:hover,
 .blog-sidebar ul.tags li a:hover {
   color: #fff;
-  background-color: #a22a27;
+  background-color: #9a2143;
 }
 .blog-comment-section {
   padding-top: 60px;
@@ -1908,7 +1907,7 @@ body.slide .oliven-nav-toggle {
 }
 .blog-user-content h3 {
   font-size: 21px;
-  color: #000;
+  color: #1e2742;
   margin: 0 0 15px;
 }
 .blog-user-content h3 span {
@@ -1923,7 +1922,7 @@ body.slide .oliven-nav-toggle {
 .blog-repay {
   font-size: 13px;
   line-height: 1.75em;
-  color: #000 !important;
+  color: #1e2742 !important;
   margin: 0;
   font-weight: 400;
 }
@@ -1953,13 +1952,13 @@ body.slide .oliven-nav-toggle {
 .blog-pagination-wrap li a:hover {
   opacity: 1;
   text-decoration: none;
-  background-color: #a22a27;
-  border: 1px solid #a22a27;
+  background-color: #9a2143;
+  border: 1px solid #9a2143;
   color: #fff;
 }
 .blog-pagination-wrap li a.active {
-  background-color: #a22a27;
-  border: 1px solid #a22a27;
+  background-color: #9a2143;
+  border: 1px solid #9a2143;
   color: #fff;
 }
 .blog-pagination-wrap li a i {
