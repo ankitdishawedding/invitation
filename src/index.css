@@ -884,6 +884,9 @@ body.slide .oliven-nav-toggle {
     font-size: 12px;
   }
 }
+img {
+  pointer-events: none;
+}
 /* bounce */
 .header .arrow {
   position: relative;
