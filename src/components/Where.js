@@ -3,7 +3,7 @@ import where1 from "../assets/images/where-1.jpg";
 import Haldi from "../assets/Haldi.png";
 import Wedding from "../assets/images/wedding.jpeg";
 import Ring from "../assets/images/ring.jpg";
-import Mehndi from "../assets/images/Mehandi.png";
+import Mehndi from "../assets/images/Mehndi.jpg";
 import where2 from "../assets/images/where-2.jpg";
 import where3 from "../assets/images/where-3.jpg";
 function Where() {
