@@ -10,7 +10,7 @@ function Seeyou() {
               <i className="ti-heart"></i>
             </span>
             <h4>Looking forward to see you!</h4>
-            <h3>21.11.2021</h3>
+            <h3>14.02.2024</h3>
           </div>
         </div>
       </div>

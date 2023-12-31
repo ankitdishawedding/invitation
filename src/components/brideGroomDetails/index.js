@@ -1,5 +1,6 @@
 import React from "react";
-import Bride from "../../assets/images/ankit_tyagi.jpg";
+import BRIDE from "../../assets/images/BRIDE.jpg";
+import GROOM from "../../assets/images/ankit_tyagi.jpg";
 import Groom from "../../assets/images/ankit_tyagi.jpg";
 import data from "../../ssr.json";
 
@@ -18,7 +19,7 @@ function Bridegroom() {
             >
               <div className="img">
                 {" "}
-                <img src={Bride} alt="" />{" "}
+                <img src={GROOM} alt="" />{" "}
               </div>
               <div className="info valign">
                 <div className="full-width">
@@ -55,7 +56,7 @@ function Bridegroom() {
             >
               <div className="img">
                 {" "}
-                <img src={Groom} alt="" />{" "}
+                <img src={BRIDE} alt="" />{" "}
               </div>
               <div className="info valign">
                 <div className="full-width">

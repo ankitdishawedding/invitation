@@ -18,7 +18,7 @@ function Organization() {
             <h2 className="custom-font numb">01</h2>
             <h6 className="title">Sagai</h6>
             <p>Monday, 12th Feb,2024</p>
-            <p>Time- 3:00PM</p>
+            <p>Time- 1:00PM</p>
             <p>Venue-Hotel Aashram The Banquet</p>
           </div>
           <div className="col-md-3 item-box">
