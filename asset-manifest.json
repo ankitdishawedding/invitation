@@ -1,13 +1,18 @@
 {
   "files": {
-    "main.css": "/invitation/static/css/main.e41cb78a.css",
-    "main.js": "/invitation/static/js/main.d9795a09.js",
+    "main.css": "/invitation/static/css/main.d1ba70b5.css",
+    "main.js": "/invitation/static/js/main.b4ce78c7.js",
     "static/js/787.cf61719d.chunk.js": "/invitation/static/js/787.cf61719d.chunk.js",
     "static/media/AajSajeya.mp3": "/invitation/static/media/AajSajeya.7b2ea4e1db349f6bb6d1.mp3",
+    "static/media/Mehandi.png": "/invitation/static/media/Mehandi.b866a0638ba3639c8be1.png",
     "static/media/banner.jpg": "/invitation/static/media/banner.957e8a5ba882942f3de2.jpg",
+    "static/media/Haldi.png": "/invitation/static/media/Haldi.bd3234e87ec813c8365c.png",
+    "static/media/BRIDE.jpg": "/invitation/static/media/BRIDE.b232f04065b99c63428b.jpg",
     "static/media/banner-3.jpg": "/invitation/static/media/banner-3.323d8d5b63350e17d23c.jpg",
     "static/media/Slider.jpg": "/invitation/static/media/Slider.c7a38ee4f60be3c665aa.jpg",
     "static/media/banner-2.jpg": "/invitation/static/media/banner-2.51ae9d2a7106e3cbd9a6.jpg",
+    "static/media/ring.jpg": "/invitation/static/media/ring.d63ca452afeacc4833e8.jpg",
+    "static/media/wedding.jpeg": "/invitation/static/media/wedding.7c5311e00ffc36ba8002.jpeg",
     "static/media/story.jpg": "/invitation/static/media/story.e4e9411f35d517ee7ce8.jpg",
     "static/media/where-3.jpg": "/invitation/static/media/where-3.b0a204f7b46484fe0946.jpg",
     "static/media/where-2.jpg": "/invitation/static/media/where-2.1f12a5cd2a1941f69537.jpg",
@@ -23,12 +28,12 @@
     "service-worker.js": "/invitation/service-worker.js",
     "static/media/logo.png": "/invitation/static/media/logo.c89c62cf4afa1505b090.png",
     "index.html": "/invitation/index.html",
-    "main.e41cb78a.css.map": "/invitation/static/css/main.e41cb78a.css.map",
-    "main.d9795a09.js.map": "/invitation/static/js/main.d9795a09.js.map",
+    "main.d1ba70b5.css.map": "/invitation/static/css/main.d1ba70b5.css.map",
+    "main.b4ce78c7.js.map": "/invitation/static/js/main.b4ce78c7.js.map",
     "787.cf61719d.chunk.js.map": "/invitation/static/js/787.cf61719d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e41cb78a.css",
-    "static/js/main.d9795a09.js"
+    "static/css/main.d1ba70b5.css",
+    "static/js/main.b4ce78c7.js"
   ]
 }
